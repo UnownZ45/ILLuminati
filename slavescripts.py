@@ -5,6 +5,11 @@ strip = apa102.APA102(machine.Pin(19), machine.Pin(23), 60)
 
 brightness = 1
 
+RED = 0
+GREEN = 0
+BLUE = 0
+BRIGHTNESS = 0
+
 def RGB():
     red = 0xff0000
     green = red >> 8
@@ -60,4 +65,8 @@ def col_purple():
 
 def col_white():
     strip.fill((255, 255, 255, brightness))
+    strip.write()
+
+def cus_col(RED, GREEN, BLUE, BRIGHTNESS):
+    strip.fill((RED, GREEN, BLUE, BRIGHTNESS))
     strip.write()

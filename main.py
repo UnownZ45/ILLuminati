@@ -46,7 +46,7 @@ def main():
             op.rainbow()
 
         elif Switch_1.value() & Switch_4.value():
-            op.col_white()
+            op.cus_col(0, 0, 0, 0)
 
         elif Switch_2.value() & Switch_3.value():
             op.RGB()
@@ -55,7 +55,7 @@ def main():
             op.colorfade()
 
         elif Switch_3.value() & Switch_4.value():
-            null
+            op.col_white()
 
         else:
             op.off()
