@@ -24,6 +24,7 @@ This project is extremely easy to use simply just
 
 ## Features (both present and future)
 Since this project is still a work in progress we still have plans to further improve. Plans are as follows
+
 *in testing phase*
 
 - [ ] *Basic functionality*
