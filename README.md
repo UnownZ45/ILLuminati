@@ -24,8 +24,9 @@ This project is extremely easy to use simply just
 
 ## Features (both present and future)
 Since this project is still a work in progress we still have plans to further improve. Plans are as follows
+*in testing phase*
 
-- [ ] Basic functionality
+- [ ] *Basic functionality*
 - [ ] An Assortment of easy-to-load color presets for easy customization
 - [ ] An Assortment of multicolor and moving color presets for cooler customization
 - [ ] Merging interior lighting with under-glow for the best custom lighting for you vehicle
