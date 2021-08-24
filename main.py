@@ -29,16 +29,34 @@ def main():
     while True:     #     Runs Script Constantly
         if Switch_1.value():
             op.col_red()
-        
+
         elif Switch_2.value():
-            op.rainbow()
-        
+            op.col_blue()
+
         elif Switch_3.value():
-            op.RGB()
-        
+            op.col_green()
+
         elif Switch_4.value():
+            op.col_purple()
+
+        elif Switch_1.value() & Switch_2.value():
             op.rainfade()
-            
+
+        elif Switch_1.value() & Switch_3.value():
+            op.rainbow()
+
+        elif Switch_1.value() & Switch_4.value():
+            op.col_white()
+
+        elif Switch_2.value() & Switch_3.value():
+            op.RGB()
+
+        elif Switch_2.value() & Switch_4.value():
+            op.colorfade()
+
+        elif Switch_3.value() & Switch_4.value():
+            null
+
         else:
             op.off()
 
