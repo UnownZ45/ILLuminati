@@ -1,4 +1,5 @@
 import slavescripts as op #Calls for the secondary scripts
+import machine
 
 #     Set Pinout Here
 #     Should Be Formatted As Follows

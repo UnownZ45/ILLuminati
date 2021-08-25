@@ -6,9 +6,9 @@ strip = apa102.APA102(machine.Pin(19), machine.Pin(23), 60)
 
 brightness = light_level
 
-RED = 0
-GREEN = 0
-BLUE = 0
+RED1 = 0
+GREEN1 = 0
+BLUE1 = 0
 BRIGHTNESS = 0
 
 def RGB():
@@ -68,6 +68,6 @@ def col_white():
     strip.fill((255, 255, 255, brightness))
     strip.write()
 
-def cus_col(RED, GREEN, BLUE, BRIGHTNESS):
-    strip.fill((RED, GREEN, BLUE, BRIGHTNESS))
+def cus_col(RED1, GREEN1, BLUE1, BRIGHTNESS):
+    strip.fill((RED1, GREEN1, BLUE1, BRIGHTNESS))
     strip.write()
