@@ -1,4 +1,4 @@
-import slavescripts as op
+import slavescripts as op #Calls for the secondary scripts
 
 #     Set Pinout Here
 #     Should Be Formatted As Follows
@@ -12,7 +12,7 @@ Switch_3 = Pin(14, Pin.IN, Pin.PULL_DOWN)
 Switch_4 = Pin(15, Pin.IN, Pin.PULL_DOWN)
 #Switch_5 = Pin(19, Pin.in, Pin.PULL_DOWN) #Remove comment if 5th Switch is incorporated
 
-brightness = 1 # 0 is off, 1 is dim, 31 is max
+light_level = 1 # 0 is off, 1 is dim, 31 is max
 
 def wheel(offset, brightness):
     offset = 255 - offset
@@ -30,49 +30,44 @@ def main():
     while True:     #     Runs Script Constantly
         if Switch_1.value():
             op.col_red()
-
         elif Switch_2.value():
             op.col_blue()
-
         elif Switch_3.value():
             op.col_green()
-
         elif Switch_4.value():
-            op.col_purple()
-
+            op.colorfade()
         #elif Switch_5.value():
             #null
-
         elif Switch_1.value() & Switch_2.value():
-            op.rainfade()
-
+            op.col_purple()
         elif Switch_1.value() & Switch_3.value():
-            op.rainbow()
-
+            null
         elif Switch_1.value() & Switch_4.value():
-            op.cus_col(0, 0, 0, 0)
-
+            null
         #elif Switch_1.value() & Switch_5.value():
             #null
-
         elif Switch_2.value() & Switch_3.value():
-            op.RGB()
-
+            null
         elif Switch_2.value() & Switch_4.value():
-            op.colorfade()
-
+            null
         #elif Switch_2.value() & Switch_5.value():
             #null
-
         elif Switch_3.value() & Switch_4.value():
             op.col_white()
-
         #elif Switch_3.value() & Switch_5.value():
             #null
-
         #elif Switch_4.value() & Switch_5.value():
             #null
-
+        elif Switch_1.value() & Switch_2.value() & Switch_3.value():
+            op.rainbow()
+        elif Switch_1.value() & Switch_2.value() & Switch_4.value():
+            op.rainfade()
+        elif Switch_1.value() & Switch_3.value() & Switch_4.value():
+            op.RGB()
+        elif Switch_2.value() & Switch_3.value() & Switch_4.value():
+            op.cus_col(0, 0, 0, light_level)
+        elif Switch_1.value() & Switch_2.value() & Switch_3.value() & Switch_4.value():
+            null
         else:
             op.off()
 

@@ -1,9 +1,10 @@
 import time
 import machine, apa102
+import main
 
 strip = apa102.APA102(machine.Pin(19), machine.Pin(23), 60)
 
-brightness = 1
+brightness = light_level
 
 RED = 0
 GREEN = 0
