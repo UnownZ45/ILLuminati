@@ -1,7 +1,5 @@
 # UnderGlow_RP2040
 
-checking difference
-
 *Project is still in development*
 
 Use at your own discretion.
