@@ -18,6 +18,7 @@ This project is extremely easy to use simply just
 - Modify the code to your needs
   - In the main.py file you will want to set your switch pinouts to fit your needs
   - In the slavescripts.py file you can add more colors or color schemes for a full custom experience (just be sure you reference those colors in the main.py file)
+  - To generate color presets run the Color_Generation.py and input a hexidecimal color and it will return the RGB value needed in the main.py or slavescripts.py
 - load the main.py and slavescripts.py files onto you Raspberry Pi Pico (or Micro Controller of you choice (we have only tested with the RP2040 chipset though))
 - BAM! You can now install your switches and lights to your Pico and car to bask in it's renewed gloriousness
 
