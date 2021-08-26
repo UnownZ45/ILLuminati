@@ -7,7 +7,7 @@ Use at your own discretion.
 
 ## About This Project
 
-Hey there, we are so glad you found us, we are *ILLuminati*. ILLuminati is a starting business that is combining LED technology with cars to bring a cheaper and better under-glow option to cars. This specific project focuses only on under-glow but [here](https://www.github.com) is where you'll be able to access our interior lighting program.
+Hey there, we are so glad you found us, we are *ILLuminati*. ILLuminati is a starting business that is combining LED technology with cars to bring a cheaper and better under-glow option to cars. 
 
 
 ## How to Use
