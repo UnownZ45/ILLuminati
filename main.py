@@ -48,9 +48,9 @@ def main():
         #elif Switch_1.value() & Switch_5.value():
             #null
         elif Switch_2.value() & Switch_3.value():
-            null
+            op.col_teal()
         elif Switch_2.value() & Switch_4.value():
-            null
+            op.col_tur()
         #elif Switch_2.value() & Switch_5.value():
             #null
         elif Switch_3.value() & Switch_4.value():

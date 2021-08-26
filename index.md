@@ -30,8 +30,30 @@ Since this project is still a work in progress we still have plans to further im
 
 - [ ] *Basic functionality*
 - [ ] *An Assortment of easy-to-load color presets for easy customization*
-- [ ] An Assortment of multicolor and moving color presets for cooler customization
+- [ ] *An Assortment of multicolor and moving color presets for cooler customization*
 - [ ] Merging interior lighting with under-glow for the best custom lighting for you vehicle
 - [ ] Phone Linking to allow for mobile control
 - [ ] Use of Potentiometer for brightness control
 - [ ] Use of Potentiometer for color control
+
+## Current Color Configurations
+
+Switch 1 - Red Stationary
+Switch 2 - Blue Stationary
+Switch 3 - Green Stationary
+Switch 4 - Color Fading
+Switch 5 - Disabled
+
+Switch 1/2 - Purple Stationary
+Switch 1/3 - Unavailable
+Switch 1/4 - Unavailable
+Switch 2/3 - Teal Stationary
+Switch 2/4 - Turquoise Stationary
+Switch 3/4 - White Stationary
+
+Switch 1/2/3 - Rainbow Preset
+Switch 1/2/4 - Fading Rainbow Preset
+Switch 1/3/4 - RGB Preset
+Switch 2/3/4 - Custom Color
+
+Switch 1/2/3/4 - Unavailable

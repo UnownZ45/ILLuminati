@@ -71,3 +71,15 @@ def col_white():
 def cus_col(RED1, GREEN1, BLUE1, BRIGHTNESS):
     strip.fill((RED1, GREEN1, BLUE1, BRIGHTNESS))
     strip.write()
+
+def col_green():
+    strip.fill((0, 255, 0, brightness))
+    strip.write()
+
+def col_tur():
+    strip.fill((0, 100, 155, brightness))
+    strip.write()
+
+def col_teal():
+    strip.fill((0, 155, 100, brightness))
+    strip.write()
